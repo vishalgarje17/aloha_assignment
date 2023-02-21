@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Week 3 - Day 3 Assignment</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body style="color: white0; background: rgb(164,68,68);
+background: radial-gradient(circle, rgba(164,68,68,1) 0%, rgba(35,68,66,1) 94%);">
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="productCode">Employee Id</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">Employee  Name</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">Home Town</label>
+                        <input type="text" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perPrice">Education</label>
+                        <input type="Text" name="perPrice" id="perPrice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+                <td>
+                    <table class="list data" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Employee ID</th>
+                                <th>Employee Name</th>
+                                <th>Home Town</th>
+                                <th>Education</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+                
+        </tr>
+    </table>
+    
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
